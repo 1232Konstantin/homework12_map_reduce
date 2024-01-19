@@ -16,7 +16,7 @@ project(mapreduce VERSION ${PROJECT_VESRION})
 
 find_package(Boost COMPONENTS filesystem program_options REQUIRED)
 
-add_executable(mapreduce main.cpp)
+add_executable(mapreduce main.cpp _reduce.cpp _shuffle.cpp input.cpp _map.cpp)
 
 
 set_target_properties(mapreduce  PROPERTIES

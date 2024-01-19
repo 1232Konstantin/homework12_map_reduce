@@ -34,7 +34,7 @@ class Map
     int m_thread_count;
     std::vector<std::thread> m_thead_pool;
     const int cash_block_size=1024*1024; //размер блока для кэширования данных, читаемых из файла
-    const std::string prefix="D:\\mapreduce\\";
+    const std::string prefix="";
     Functor m_functor;
     std::list<std::string> m_out_files;
     long long m_bit;

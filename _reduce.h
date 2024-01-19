@@ -28,7 +28,7 @@ class Reduce
 
     std::vector<std::thread> m_thead_pool;
 
-    const std::string prefix="D:\\mapreduce\\reduce_";
+    const std::string prefix="reduce_";
     Functor m_functor;
 
 

@@ -51,7 +51,7 @@ class Out
     long long m_filesize=0;
     std::list<std::string> m_out_files;
     int m_courent_file_num=0;
-    std::string prefix="D:\\mapreduce\\shuffle_";
+    std::string prefix="shuffle_";
 
 public:
     Out();
